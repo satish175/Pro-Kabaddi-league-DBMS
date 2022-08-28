@@ -1,0 +1,45 @@
+<html>
+<head>
+</head>
+<form action="http://localhost:8080/project/pkl_match_php.php">
+<body style="background:url(pplease.jpg);background-repeat:no-repeat ;background-size:100%,100%">
+<font color="LawnGreen"><b>
+<center>
+<br><br><br><br><br><br><br>
+MATCH_ID:<input type="number"min="5000"max="10000"name="match_id"required="true">
+<br><br>
+SEASON_NO:<select name="season_no"required="true">
+<option disabled selected value> - - select an option - - </option>
+<option
+value="1">1</option>
+<option
+value="2">2</option>
+<option
+value="3">3</option>
+<option
+value="4">4</option>
+<option
+value="5">5</option>
+</select>
+<br><br>
+TEAM1_ACRONYM:<input type="text"name="team1_acronym"required="true">
+<br><br>
+TEAM2_ACRONYM:<input type="text"name="team2_acronym"required="true">
+<br><br>
+MATCH_DATE:<input type="date"name="match_date"required="true">
+<br><br>
+MATCH_TIME:<input type="time"name="match_time"required="true">
+<br><br>
+MATCH_VENUE:<input type="text"name="match_venue"required="true">
+<br><br>
+MATCH_RESULT:<input type="radio"name="match_result"required="true"value="team1_acronym"checked>TEAM1<input type="radio"name="match_result"value="team2_acronym">TEAM2<input type="radio"name="match_result"value="DRAW">DRAW<br><br>
+<input type="submit"style="color:LawnGreen;background-color:black;border-radius:10px;" name="button" value="submit">
+<br><br>
+</form>
+<form action="http://localhost:8080/project/menu1.html">
+<input type="submit"style="color:LawnGreen;background-color:black;border-radius:10px;" name="button" value="back">
+</form>
+</center>
+</body>
+</html>
+
